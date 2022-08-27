@@ -1,0 +1,39 @@
+
+.intro__wrapper{
+    margin: 10px 0;
+    position: relative;
+}
+.honey__intro{
+    width: 100%;
+    position: relative;
+}
+.intro__title{
+      
+}
+.intro__text{
+    font-size: 20px;
+}
+/* end */
+/* card */
+.card__wrapper{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+}
+/* end */
+.btn-primary{
+    margin: 10px;
+}
+@media  screen  and (max-width:722px){
+    .card__wrapper{
+        display: inline-block;
+        justify-content: center;
+    }
+}
+@media  screen  and (max-width:500px){
+    .honey__intro{
+        display: none;
+    }
+}

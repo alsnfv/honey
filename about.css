@@ -1,0 +1,18 @@
+.container-xl{
+    /* background-image: url(/field2.png); */
+    color: rgb(43, 38, 38);
+}
+.card__about{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+}
+@media  screen  and (max-width:722px){
+    .card__about{
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
